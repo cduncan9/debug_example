@@ -36,7 +36,7 @@ def sin_poly(x):
 
 def cos_poly(x):
     x_rad = x * math.pi / 180
-    return 1 - (x_rad**2) / 2 + (x_rad**4) / 24 - (x**6) / 720
+    return 1 - (x_rad**2) / 2 + (x_rad**4) / 24 - (x_rad**6) / 720
 
 
 def calc_sin(x):
